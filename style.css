@@ -200,7 +200,7 @@ header .search-btn {
 
 @media (max-width: 1500px) {
   .main-container {
-    height: 75vh;
+    height: fit-content;
   }
 }
 
