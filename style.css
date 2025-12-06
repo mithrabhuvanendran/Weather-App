@@ -49,7 +49,6 @@ body::before {
 .main-container {
   /* border: solid; */
   width: 350px;
-  height: 65vh;
   background: linear-gradient(
     to top,
     rgb(0, 0, 0, 0.15),
@@ -190,18 +189,6 @@ header .search-btn {
 .section-message img {
   height: 180px;
   width: fit-content;
-}
-
-@media (min-width: 1500px) {
-  .main-container {
-    height: fit-content;
-  }
-}
-
-@media (max-width: 1500px) {
-  .main-container {
-    height: fit-content;
-  }
 }
 
 @media (max-width: 375px) {
